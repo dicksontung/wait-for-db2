@@ -6,5 +6,5 @@ $ docker run --rm \
     -e LICENSE=accept \
     -e DB_PASSWORD=password \
     -e DB_NAME=remotedb \
-    --net=database_network wait-for-db2
+    --net=database_network dixont/wait-for-db2
 ```
